@@ -51,15 +51,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs" />
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="Cadastrados.cs" />
+    <Compile Include="Cadastrados.Designer.cs">
+      <DependentUpon>Cadastrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro.cs" />
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Favoritados.cs" />
+    <Compile Include="Favoritados.Designer.cs">
+      <DependentUpon>Favoritados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerenciador.cs" />
+    <Compile Include="Gerenciador.Designer.cs">
+      <DependentUpon>Gerenciador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.cs" />
+    <Compile Include="Login2.Designer.cs">
+      <DependentUpon>Login2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina Inicial.cs" />
+    <Compile Include="Pagina Inicial.Designer.cs">
+      <DependentUpon>Pagina Inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cadastrados.resx">
+      <DependentUpon>Cadastrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favoritados.resx">
+      <DependentUpon>Favoritados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerenciador.resx">
+      <DependentUpon>Gerenciador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login2.resx">
+      <DependentUpon>Login2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagina Inicial.resx">
+      <DependentUpon>Pagina Inicial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

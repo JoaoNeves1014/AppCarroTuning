@@ -24,7 +24,9 @@ namespace aplicativoComercio
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new MainForm());
+			Application.EnableVisualStyles();
+Application.SetCompatibleTextRenderingDefault(false);
+Application.Run(new Login2()); // Aqui você passa a instância da sua janela
 		}
 		
 	}

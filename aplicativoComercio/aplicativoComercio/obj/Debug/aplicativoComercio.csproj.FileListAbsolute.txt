@@ -1,0 +1,13 @@
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\bin\Debug\aplicativoComercio.exe.config
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\bin\Debug\aplicativoComercio.exe
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\bin\Debug\aplicativoComercio.pdb
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.csprojResolveAssemblyReference.cache
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Cadastro.resources
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Pagina_Inicial.resources
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.csproj.GenerateResource.Cache
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.exe
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.pdb
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Favoritados.resources
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Cadastrados.resources
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Gerenciador.resources
+C:\Users\1068441\Documents\GitHub\AppCarroTuning\aplicativoComercio\aplicativoComercio\obj\Debug\aplicativoComercio.Login2.resources
