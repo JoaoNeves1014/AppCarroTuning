@@ -47,5 +47,23 @@ namespace aplicativoComercio
 		{
 	
 		}
+		void Button1Click(object sender, EventArgs e)
+		{
+			string ModVeiculo = textBox1.Text;
+			string MotVeiculo = textBox2.Text;
+			MessageBox.Show("Veículo cadastrado com sucesso!");
+			Cadastrados cad = new Cadastrados();
+			cad.ModeloVeiculoCadastrado = textBox1.Text;
+			cad.MotorizacaoVeiculoCadastrado = textBox2.Text;
+			cad.AnoVeiculoCadastrado = maskedTextBox1.Text;
+		}
+		void Button3Click(object sender, EventArgs e)
+		{
+			MessageBox.Show("Peça cadastrada com sucesso!");
+			Cadastrados cad = new Cadastrados();
+			cad.NomeUtilidadePecaCadastrada = textBox3.Text;
+			cad.LocalModeloPecaCadastrada = textBox4.Text;
+			cad.AnoPecaCadastrada = maskedTextBox2.Text;
+		}
 	}
 }

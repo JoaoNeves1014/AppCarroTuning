@@ -17,6 +17,16 @@ namespace aplicativoComercio
 	/// </summary>
 	public partial class Cadastrados : Form
 	{
+		//informações do veículo
+		public string ModeloVeiculoCadastrado;
+		public string MotorizacaoVeiculoCadastrado;
+		public string AnoVeiculoCadastrado;
+		
+		//informações da peça
+		public string NomeUtilidadePecaCadastrada;
+		public string LocalModeloPecaCadastrada;
+		public string AnoPecaCadastrada;
+		
 		public Cadastrados()
 		{
 			//
@@ -31,6 +41,9 @@ namespace aplicativoComercio
 		void PictureBox3Click(object sender, EventArgs e)
 		{
 	
+			Favoritados tela = new Favoritados();
+			tela.Show();
+			this.Hide();
 			
 			
 		}
@@ -38,6 +51,30 @@ namespace aplicativoComercio
 		{
 	
 			Pagina_Inicial tela = new Pagina_Inicial();
+			tela.Show();
+			this.Hide();
+		}
+		void Label9Click(object sender, EventArgs e)
+		{
+	
+			Favoritados tela = new Favoritados();
+			tela.Show();
+			this.Hide();
+			
+		}
+		void CadastradosLoad(object sender, EventArgs e)
+		{
+			chamaDadosVeiculo();
+		}
+
+		void chamaDadosVeiculo()
+		{
+			
+		}
+		void PictureBox2Click(object sender, EventArgs e)
+		{
+	
+			Favoritados tela = new Favoritados();
 			tela.Show();
 			this.Hide();
 		}

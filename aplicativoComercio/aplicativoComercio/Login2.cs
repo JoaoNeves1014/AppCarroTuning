@@ -45,27 +45,30 @@ namespace aplicativoComercio
 		void BtnLoginClick(object sender, EventArgs e)
 		{
 	
-			if(txtEmail.Text == "")
-			{
+			if(txtEmail.Text == "" || txtSenha.Text == ""){
+			
 				MessageBox.Show("Digite o Email: ");
 				txtEmail.Focus();
-				return;
-			}
-			
-			if(txtSenha.Text == ""){
 				txtSenha.Focus();
 				return;
 			}
 			
-			if(txtEmail.Text == "admin@gmail.com" && txtSenha.Text == "1234")
-			{
-				MessageBox.Show("Login Realizado com sucesso!");
+			else if (!txtEmail.Text.Contains("@gmail.com")){
+			MessageBox.Show("Digite um email válido");
+			    txtEmail.Focus();
+			   	return;
+
 			}
 			
-			else
-			{
-				
-				tentativas --;
+			else if (txtEmail.Text == "admin@gmail.com" && txtSenha.Text == "1234"){
+				MessageBox.Show("Login Realizado com sucesso!");
+				Pagina_Inicial pf = new Pagina_Inicial();
+				pf.Show();
+				this.Hide();
+			}
+			
+			else{
+			tentativas --;
 				MessageBox.Show("Login invalido");
 				
 				if(tentativas == 0)
@@ -75,24 +78,7 @@ namespace aplicativoComercio
 				}
 			}
 			
-			if(txtEmail.Text == "")
-			{
-				MessageBox.Show("Digite o email");
-				txtSenha.Focus();
-				return;
-			}
 			
-			
-			if(!txtEmail.Text.Contains("@gmail.com"))
-			{
-			   	MessageBox.Show("Digite um email válido");
-			   	txtEmail.Focus();
-			   	return;
-			}
-			
-			Pagina_Inicial tela = new Pagina_Inicial();
-			tela.Show();
-			this.Hide();
 		}
 		void Label4Click(object sender, EventArgs e)
 		{

@@ -60,9 +60,19 @@ namespace aplicativoComercio
 			   	txtEmail.Focus();
 			   	return;
 			}
-			   	
-			  
+			
+			if(txtEmail.Text == "admin@gmail.com")
+			{
+				MessageBox.Show("Cadastro Realizado com sucesso!");
+				
+		    }
+			else
+			{
+				MessageBox.Show("Cadastro não realizado");
+			}
+			
 		}
+					
 		void Label3Click(object sender, EventArgs e)
 		{
 	

@@ -58,6 +58,8 @@ namespace aplicativoComercio
 		private System.Windows.Forms.PictureBox pictureBox10;
 		private System.Windows.Forms.PictureBox pictureBox9;
 		private System.Windows.Forms.Button btnCadastrar;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label label12;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -83,6 +85,7 @@ namespace aplicativoComercio
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pagina_Inicial));
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.panel14 = new System.Windows.Forms.Panel();
+			this.label13 = new System.Windows.Forms.Label();
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.button1 = new System.Windows.Forms.Button();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -94,6 +97,7 @@ namespace aplicativoComercio
 			this.panel7 = new System.Windows.Forms.Panel();
 			this.panel8 = new System.Windows.Forms.Panel();
 			this.panel9 = new System.Windows.Forms.Panel();
+			this.label12 = new System.Windows.Forms.Label();
 			this.panel11 = new System.Windows.Forms.Panel();
 			this.panel10 = new System.Windows.Forms.Panel();
 			this.panel12 = new System.Windows.Forms.Panel();
@@ -161,6 +165,17 @@ namespace aplicativoComercio
 			this.panel14.Name = "panel14";
 			this.panel14.Size = new System.Drawing.Size(1089, 10);
 			this.panel14.TabIndex = 3;
+			// 
+			// label13
+			// 
+			this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label13.ForeColor = System.Drawing.Color.White;
+			this.label13.Location = new System.Drawing.Point(3, 17);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(112, 21);
+			this.label13.TabIndex = 6;
+			this.label13.Text = "Carro Tuning";
+			this.label13.Click += new System.EventHandler(this.Label13Click);
 			// 
 			// panel5
 			// 
@@ -263,6 +278,7 @@ namespace aplicativoComercio
 			// panel9
 			// 
 			this.panel9.BackColor = System.Drawing.SystemColors.ButtonFace;
+			this.panel9.Controls.Add(this.label12);
 			this.panel9.Controls.Add(this.panel11);
 			this.panel9.Controls.Add(this.panel10);
 			this.panel9.Location = new System.Drawing.Point(1, 62);
@@ -270,6 +286,15 @@ namespace aplicativoComercio
 			this.panel9.Size = new System.Drawing.Size(1088, 47);
 			this.panel9.TabIndex = 5;
 			this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel9Paint);
+			// 
+			// label12
+			// 
+			this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label12.Location = new System.Drawing.Point(970, 13);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(115, 21);
+			this.label12.TabIndex = 5;
+			this.label12.Text = "Carro Tuning";
 			// 
 			// panel11
 			// 
@@ -290,6 +315,7 @@ namespace aplicativoComercio
 			// panel12
 			// 
 			this.panel12.BackColor = System.Drawing.Color.Navy;
+			this.panel12.Controls.Add(this.label13);
 			this.panel12.Controls.Add(this.panel6);
 			this.panel12.Controls.Add(this.panel13);
 			this.panel12.Location = new System.Drawing.Point(0, 588);

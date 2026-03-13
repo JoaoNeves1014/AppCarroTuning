@@ -20,15 +20,12 @@ namespace aplicativoComercio
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.PictureBox pictureBox1;
-		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Panel panel7;
-		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Windows.Forms.HScrollBar hScrollBar2;
 		private System.Windows.Forms.PictureBox pictureBox2;
-		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.HScrollBar hScrollBar3;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Label label9;
@@ -36,6 +33,8 @@ namespace aplicativoComercio
 		private System.Windows.Forms.HScrollBar hScrollBar4;
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.ListBox listBoxPecas;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label5;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -61,9 +60,7 @@ namespace aplicativoComercio
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastrados));
 			this.label3 = new System.Windows.Forms.Label();
 			this.panel7 = new System.Windows.Forms.Panel();
-			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.hScrollBar3 = new System.Windows.Forms.HScrollBar();
-			this.label7 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
 			this.listBoxVeiculos = new System.Windows.Forms.ListBox();
 			this.hScrollBar4 = new System.Windows.Forms.HScrollBar();
@@ -73,16 +70,16 @@ namespace aplicativoComercio
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.panel2 = new System.Windows.Forms.Panel();
 			this.panel3 = new System.Windows.Forms.Panel();
-			this.label5 = new System.Windows.Forms.Label();
 			this.panel4 = new System.Windows.Forms.Panel();
 			this.label8 = new System.Windows.Forms.Label();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.label9 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
-			this.label9 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
 			this.panel7.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			this.panel1.SuspendLayout();
@@ -103,24 +100,12 @@ namespace aplicativoComercio
 			// panel7
 			// 
 			this.panel7.BackColor = System.Drawing.Color.Silver;
-			this.panel7.Controls.Add(this.pictureBox4);
 			this.panel7.Controls.Add(this.hScrollBar3);
-			this.panel7.Controls.Add(this.label7);
 			this.panel7.Controls.Add(this.label4);
 			this.panel7.Location = new System.Drawing.Point(12, 490);
 			this.panel7.Name = "panel7";
 			this.panel7.Size = new System.Drawing.Size(960, 133);
 			this.panel7.TabIndex = 3;
-			// 
-			// pictureBox4
-			// 
-			this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-			this.pictureBox4.Location = new System.Drawing.Point(359, 31);
-			this.pictureBox4.Name = "pictureBox4";
-			this.pictureBox4.Size = new System.Drawing.Size(23, 19);
-			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox4.TabIndex = 11;
-			this.pictureBox4.TabStop = false;
 			// 
 			// hScrollBar3
 			// 
@@ -128,15 +113,6 @@ namespace aplicativoComercio
 			this.hScrollBar3.Name = "hScrollBar3";
 			this.hScrollBar3.Size = new System.Drawing.Size(10, 138);
 			this.hScrollBar3.TabIndex = 11;
-			// 
-			// label7
-			// 
-			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.Location = new System.Drawing.Point(12, 31);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(283, 29);
-			this.label7.TabIndex = 3;
-			this.label7.Text = "- Civic EXS 1995 + Kit Turbo";
 			// 
 			// label4
 			// 
@@ -195,7 +171,7 @@ namespace aplicativoComercio
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(793, -29);
+			this.pictureBox1.Location = new System.Drawing.Point(780, -36);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(177, 159);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -218,15 +194,6 @@ namespace aplicativoComercio
 			this.panel3.Size = new System.Drawing.Size(239, 15);
 			this.panel3.TabIndex = 3;
 			// 
-			// label5
-			// 
-			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.Location = new System.Drawing.Point(327, 1);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(128, 29);
-			this.label5.TabIndex = 1;
-			this.label5.Text = "- Civic EXS 1995 VTEC";
-			// 
 			// panel4
 			// 
 			this.panel4.BackColor = System.Drawing.Color.Gold;
@@ -248,12 +215,13 @@ namespace aplicativoComercio
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(432, 157);
+			this.pictureBox2.Location = new System.Drawing.Point(432, 163);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(23, 19);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox2.TabIndex = 10;
 			this.pictureBox2.TabStop = false;
+			this.pictureBox2.Click += new System.EventHandler(this.PictureBox2Click);
 			// 
 			// panel1
 			// 
@@ -261,7 +229,6 @@ namespace aplicativoComercio
 			this.panel1.Controls.Add(this.label9);
 			this.panel1.Controls.Add(this.label8);
 			this.panel1.Controls.Add(this.panel4);
-			this.panel1.Controls.Add(this.label5);
 			this.panel1.Controls.Add(this.panel3);
 			this.panel1.Controls.Add(this.panel2);
 			this.panel1.Controls.Add(this.label1);
@@ -271,6 +238,17 @@ namespace aplicativoComercio
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(986, 105);
 			this.panel1.TabIndex = 0;
+			// 
+			// label9
+			// 
+			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label9.Location = new System.Drawing.Point(386, 69);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(219, 28);
+			this.label9.TabIndex = 6;
+			this.label9.Text = "Ir para paginas de favoritados";
+			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.label9.Click += new System.EventHandler(this.Label9Click);
 			// 
 			// label1
 			// 
@@ -292,15 +270,25 @@ namespace aplicativoComercio
 			this.pictureBox3.TabStop = false;
 			this.pictureBox3.Click += new System.EventHandler(this.PictureBox3Click);
 			// 
-			// label9
+			// label2
 			// 
-			this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label9.Location = new System.Drawing.Point(386, 69);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(219, 28);
-			this.label9.TabIndex = 6;
-			this.label9.Text = "Ir para paginas de favoritados";
-			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.label2.BackColor = System.Drawing.Color.Silver;
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(42, 163);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(221, 13);
+			this.label2.TabIndex = 17;
+			this.label2.Text = "- VolksWagen Jetta 2.0 tsi 2012";
+			// 
+			// label5
+			// 
+			this.label5.BackColor = System.Drawing.Color.Silver;
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.Location = new System.Drawing.Point(520, 163);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(221, 13);
+			this.label5.TabIndex = 18;
+			this.label5.Text = "- Downpipe para motor 2.0 tsi Alemão";
 			// 
 			// Cadastrados
 			// 
@@ -308,6 +296,8 @@ namespace aplicativoComercio
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.DarkGray;
 			this.ClientSize = new System.Drawing.Size(985, 635);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.pictureBox2);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.hScrollBar2);
@@ -320,8 +310,8 @@ namespace aplicativoComercio
 			this.Controls.Add(this.panel1);
 			this.Name = "Cadastrados";
 			this.Text = "Cadastrados";
+			this.Load += new System.EventHandler(this.CadastradosLoad);
 			this.panel7.ResumeLayout(false);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			this.panel1.ResumeLayout(false);

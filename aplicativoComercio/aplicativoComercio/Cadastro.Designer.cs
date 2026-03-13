@@ -21,7 +21,6 @@ namespace aplicativoComercio
 		private System.Windows.Forms.TextBox txtNome;
 		private System.Windows.Forms.TextBox txtEmail;
 		private System.Windows.Forms.TextBox txtSenha;
-		private System.Windows.Forms.TextBox txtCpf;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.PictureBox pictureBox6;
@@ -35,6 +34,7 @@ namespace aplicativoComercio
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.CheckBox checkMostrar;
+		private System.Windows.Forms.MaskedTextBox maskedTextBox1;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -65,7 +65,6 @@ namespace aplicativoComercio
 			this.txtNome = new System.Windows.Forms.TextBox();
 			this.txtEmail = new System.Windows.Forms.TextBox();
 			this.txtSenha = new System.Windows.Forms.TextBox();
-			this.txtCpf = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -79,6 +78,7 @@ namespace aplicativoComercio
 			this.label5 = new System.Windows.Forms.Label();
 			this.label6 = new System.Windows.Forms.Label();
 			this.checkMostrar = new System.Windows.Forms.CheckBox();
+			this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -149,13 +149,6 @@ namespace aplicativoComercio
 			this.txtSenha.Name = "txtSenha";
 			this.txtSenha.Size = new System.Drawing.Size(353, 20);
 			this.txtSenha.TabIndex = 6;
-			// 
-			// txtCpf
-			// 
-			this.txtCpf.Location = new System.Drawing.Point(355, 228);
-			this.txtCpf.Name = "txtCpf";
-			this.txtCpf.Size = new System.Drawing.Size(353, 20);
-			this.txtCpf.TabIndex = 7;
 			// 
 			// button1
 			// 
@@ -280,12 +273,21 @@ namespace aplicativoComercio
 			this.checkMostrar.UseVisualStyleBackColor = true;
 			this.checkMostrar.CheckedChanged += new System.EventHandler(this.CheckMostrarCheckedChanged);
 			// 
+			// maskedTextBox1
+			// 
+			this.maskedTextBox1.Location = new System.Drawing.Point(355, 228);
+			this.maskedTextBox1.Mask = "000.000.000-00";
+			this.maskedTextBox1.Name = "maskedTextBox1";
+			this.maskedTextBox1.Size = new System.Drawing.Size(91, 20);
+			this.maskedTextBox1.TabIndex = 23;
+			// 
 			// Cadastro
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ActiveBorder;
 			this.ClientSize = new System.Drawing.Size(1066, 637);
+			this.Controls.Add(this.maskedTextBox1);
 			this.Controls.Add(this.checkMostrar);
 			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
@@ -299,7 +301,6 @@ namespace aplicativoComercio
 			this.Controls.Add(this.pictureBox6);
 			this.Controls.Add(this.pictureBox5);
 			this.Controls.Add(this.button1);
-			this.Controls.Add(this.txtCpf);
 			this.Controls.Add(this.txtSenha);
 			this.Controls.Add(this.txtEmail);
 			this.Controls.Add(this.txtNome);

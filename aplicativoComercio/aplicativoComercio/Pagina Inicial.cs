@@ -83,5 +83,9 @@ namespace aplicativoComercio
 			tela.Show();
 			this.Hide();
 		}
+		void Label13Click(object sender, EventArgs e)
+		{
+	
+		}
 	}
 }
